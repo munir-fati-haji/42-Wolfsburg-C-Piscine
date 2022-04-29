@@ -1,0 +1,1 @@
+find . -type f  | git check-ignore --stdin | xargs -n 1 basename
